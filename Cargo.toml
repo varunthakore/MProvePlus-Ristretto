@@ -19,7 +19,7 @@ curve25519-dalek = { version = "2", default-features = false, features = ["u64_b
 sha2 = "0.8.1"
 structopt = "0.2"
 sha3 = "0.8.2"
-bulletproofs = "2.0.0"
+bulletproofs = "4.0.0"
 merlin = { version = "2", default-features = false }
 digest = "0.8.1"
 byteorder = { version = "1", default-features = false }

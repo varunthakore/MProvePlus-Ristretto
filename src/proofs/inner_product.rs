@@ -33,6 +33,10 @@ pub struct InnerProductProof {
 }
 
 impl InnerProductProof {
+    pub fn get_bytes(&self) -> usize {
+        let total_scalars = self.L_vec.len() + self.R_vec.len() + 2;
+        total_scalars * 32
+    }
     /// Create an inner-product proof.
     ///
     /// The proof is created with respect to the bases \\(G\\), \\(H'\\),
