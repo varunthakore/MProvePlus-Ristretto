@@ -1,0 +1,67 @@
+Options = Opt { anon_list_size: 45000, own_list_size: 500, num_iter: 1 }
+Max estimated time: 44728.32
+Total simulation time = Duration { secs: 6929, nanos: 401523374 }
+Average proof generation time = 6467.689
+Proof size : 82560 bytes
+Average proof verification time = 461.711
+
+Options = Opt { anon_list_size: 45000, own_list_size: 1000, num_iter: 1 }
+Max estimated time: 90865.664
+Total simulation time = Duration { secs: 13872, nanos: 228030913 }
+Average proof generation time = 12948.755
+Proof size : 162624 bytes
+Average proof verification time = 923.472
+
+Options = Opt { anon_list_size: 45000, own_list_size: 3000, num_iter: 1 }
+Max estimated time: 447741.952
+
+
+Options = Opt { anon_list_size: 45000, own_list_size: 7000, num_iter: 1 }
+Max estimated time: 895221.76
+
+
+Options = Opt { anon_list_size: 45000, own_list_size: 10000, num_iter: 1 }
+Max estimated time: 896532.48
+
+
+Options = Opt { anon_list_size: 45000, own_list_size: 15000, num_iter: 1 }
+Max estimated time: 1213202.432
+
+
+Options = Opt { anon_list_size: 45000, own_list_size: 20000, num_iter: 1 }
+Max estimated time: 1212678.144
+
+
+Options = Opt { anon_list_size: 45000, own_list_size: 3000, num_iter: 1 }
+Max estimated time: 358088.70399999997
+
+Options = Opt { anon_list_size: 30000, own_list_size: 20000, num_iter: 1 }
+Max estimated time: 1787822.0799999998
+
+Options = Opt { anon_list_size: 25000, own_list_size: 20000, num_iter: 1 }
+Max estimated time: 915406.848
+
+Options = Opt { anon_list_size: 21000, own_list_size: 20000, num_iter: 1 }
+Max estimated time: 882900.992
+
+Options = Opt { anon_list_size: 20000, own_list_size: 20000, num_iter: 1 }
+Max estimated time: 893911.0399999999
+
+Options = Opt { anon_list_size: 21000, own_list_size: 15000, num_iter: 1 }
+Max estimated time: 907804.672
+
+Options = Opt { anon_list_size: 21000, own_list_size: 10000, num_iter: 1 }
+Max estimated time: 448004.09599999996
+
+Options = Opt { anon_list_size: 21000, own_list_size: 7000, num_iter: 1 }
+Max estimated time: 396492.80000000005
+
+Options = Opt { anon_list_size: 21000, own_list_size: 3000, num_iter: 1 }
+Max estimated time: 111935.488
+
+Options = Opt { anon_list_size: 45000, own_list_size: 500, num_iter: 1 }
+Max estimated time: 82132.992
+Total simulation time = Duration { secs: 15568, nanos: 837208935 }
+Average proof generation time = 14368.057
+Proof size : 82560 bytes
+Average proof verification time = 1200.779
