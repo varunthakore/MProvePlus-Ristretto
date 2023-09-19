@@ -33,3 +33,30 @@ Average proof verification time = 236.373
 
 Options = Opt { anon_list_size: 21000, own_list_size: 3000, num_iter: 1 }
 Max estimated time: 73465.856
+
+
+
+Options = Opt { anon_list_size: 45000, own_list_size: 1000, num_iter: 1 }
+Max estimated time: 74973.18400000001
+Total simulation time = Duration { secs: 9906, nanos: 657365664 }
+Average proof generation time = 8947.612
+Average proof verification time = 959.045
+
+
+
+Options = Opt { anon_list_size: 45000, own_list_size: 500, num_iter: 1 }
+Max estimated time: 42827.776
+Total simulation time = Duration { secs: 4934, nanos: 711462015 }
+Average proof generation time = 4461.739
+Average proof verification time = 472.972
+
+
+
+Options = Opt { anon_list_size: 45000, own_list_size: 250, num_iter: 1 }
+Max estimated time: 18317.311999999998
+Total simulation time = Duration { secs: 2467, nanos: 20682604 }
+Average proof generation time = 2230.544
+Average proof verification time = 236.476
+
+
+
