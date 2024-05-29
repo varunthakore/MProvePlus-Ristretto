@@ -128,6 +128,7 @@ fn main() {
 
     total_gen_proof_duration = 0;
     total_ver_proof_duration = 0;
+    let mut proof_size = 0;
     let sim_start = PreciseTime::now();
 
     for _i in 0..num_iter {        
@@ -172,6 +173,9 @@ fn main() {
         total_ver_proof_duration += (ver_proof_start.to(ver_proof_end)).num_milliseconds();
 
         // println!("Proof {} verified!", _i);
+
+        proof_size += omniresv2_proof.get_bytes();
+
     }
   
     let sim_end = PreciseTime::now();
@@ -179,6 +183,7 @@ fn main() {
 
     libc_println!("Average proof generation time = {:?}",
       (total_gen_proof_duration as f64/(1000.0*num_iter as f64)));
+    println!("Proof size : {:?} bytes", proof_size as f64 / num_iter as f64);
     libc_println!("Average proof verification time = {:?}\n",
       (total_ver_proof_duration as f64/(1000.0*num_iter as f64)));
 

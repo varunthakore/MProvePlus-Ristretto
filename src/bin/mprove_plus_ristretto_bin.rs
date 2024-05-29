@@ -98,7 +98,7 @@ fn main() {
 
     libc_println!("Average proof generation time = {:?}",
       (total_gen_proof_duration as f64/(1000.0*num_iter as f64)));
-    println!("Proof size : {:?} bytes", proof_size);
+    println!("Proof size : {:?} bytes", proof_size as f64 / num_iter as f64);
     libc_println!("Average proof verification time = {:?}\n",
       (total_ver_proof_duration as f64/(1000.0*num_iter as f64)));
 

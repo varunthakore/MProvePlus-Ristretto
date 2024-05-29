@@ -236,6 +236,14 @@ pub struct Omniresv2 {
 }
 
 impl Omniresv2 {
+
+    pub fn get_bytes(&self) -> usize {
+        let total_points = self.I_vec.len() + 5;
+        let total_scalars = 3;
+        let bytes = total_points * 4 * 5 * 8 + total_scalars * 32 + self.inner_product_proof.get_bytes();
+        bytes
+    }
+
     pub fn prove(
         // crs
         G: &RistrettoPoint,                  // base for amount in a pedersen commitment
