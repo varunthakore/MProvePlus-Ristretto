@@ -1,0 +1,14 @@
+Options = Opt { anon_list_size: 35000, own_list_size: 500, num_iter: 1 }
+Max estimated time: 34209.792
+Total simulation time = Duration { secs: 4616, nanos: 837240497 }
+Average proof generation time = 4174.303
+Proof size : 82560.0 bytes
+Average proof verification time = 442.533
+
+Options = Opt { anon_list_size: 35000, own_list_size: 1000, num_iter: 1 }
+Max estimated time: 69664.768
+Total simulation time = Duration { secs: 9150, nanos: 962340157 }
+Average proof generation time = 8268.081
+Proof size : 162624.0 bytes
+Average proof verification time = 882.88
+
