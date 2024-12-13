@@ -1,0 +1,2 @@
+Options = Opt { anon_list_size: 25000, own_list_size: 5000, num_iter: 1 }
+Max estimated time: 152633.34399999998
